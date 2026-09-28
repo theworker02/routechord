@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/routechord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Route CSV/TSV chord tables for quick inspection and cleanup.",
+  "bin": {
+    "routechord": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/routechord.git"
+  },
+  "homepage": "https://theworker02.github.io/routechord/",
+  "keywords": [
+    "route",
+    "chord",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
